@@ -5,10 +5,14 @@ Task:
   - For every string, print out its reverse
   - End the program
 */
+
 #include <iostream>
-#include <stdio.h>
+#include <stdio.h> 
+// Never declare namespace.
+
 int main() {
-int x; // ----------------- < Number of strings to be reversed >
-std::cout<<"<?> Choose a number of words:"<<std::endl<<"<#> ";
-std::cin>>x; // ----------- 
+int x; // ----------------------------------------------------------- < Number of strings to be reversed >
+std::cout<<"<?> Choose a number of words:"<<std::endl<<"<#> "; //---- < Prompt the user with the question >
+std::cin>>x; // ----------------------------------------------------- < The number request >
+  
 }
