@@ -7,12 +7,23 @@ Task:
 */
 
 #include <iostream>
+//#include <cstring> I forgot that I don't need this library
 #include <stdio.h> 
 // Never declare namespace.
 
 int main() {
-int x; // ----------------------------------------------------------- < Number of strings to be reversed >
-std::cout<<"<?> Choose a number of words:"<<std::endl<<"<#> "; //---- < Prompt the user with the question >
-std::cin>>x; // ----------------------------------------------------- < The number request >
-  
+  int x; // ------------------------------------------------------------------- < Number of strings to be reversed >
+/*[i---]*/  std::cout<<"<?> Choose a number of words:"<<std::endl<<"<#> "; //-- < Prompt the user with the question >
+/*[i---]*/  std::cin>>x; // --------------------------------------------------- < The number request >
+  std::string y; // ----------------------------------------------------------- < The string to be entered >
+/*[a---]*/  for(int i=0;i<x;i++){
+/*[ai--]*/    std::cout<<endl<<"<"<<i<<"> ";
+/*[ai--]*/    std::cin>>y;
+              for(int j=0;j<y.length();j++){
+                
+              }
+              //std::cout<<
+
+           
+         }
 }
