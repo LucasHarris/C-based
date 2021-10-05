@@ -17,13 +17,12 @@ int main() {
 /*[i---]*/  std::cin>>x; // --------------------------------------------------- < The number request >
   std::string y; // ----------------------------------------------------------- < The string to be entered >
 /*[a---]*/  for(int i=0;i<x;i++){
-/*[ai--]*/    std::cout<<endl<<"<"<<i<<"> ";
+/*[ai--]*/    std::cout<<std::endl<<"<"<<i<<"> ";
 /*[ai--]*/    std::cin>>y;
-              for(int j=0;j<y.length();j++){
-                
+              std::string z;
+              for(int j=y.length()-1;j>=0;j-=1){
+                z+=y.at(j);
               }
-              //std::cout<<
-
-           
+              //std::cout<<z;
          }
 }
