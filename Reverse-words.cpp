@@ -23,6 +23,6 @@ int main() {
               for(int j=y.length()-1;j>=0;j-=1){
                 z+=y.at(j);
               }
-              //std::cout<<z;
+              std::cout<<std::endl<<"<r> "<<z;
          }
 }
